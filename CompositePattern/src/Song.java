@@ -1,7 +1,7 @@
 public class Song implements IComponent {
-    String songName;
-    String artist;
-    float speed;
+    public String songName;
+    public String artist;
+    public float speed = 1;
 
     public Song(String songName, String artist) {
         this.songName = songName;

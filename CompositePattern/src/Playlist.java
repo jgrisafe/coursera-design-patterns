@@ -1,12 +1,11 @@
 import java.util.ArrayList;
 
 public class Playlist implements IComponent {
-    String playlistName;
-    ArrayList<IComponent> playlist;
+    public String playlistName;
+    public ArrayList<IComponent> playlist = new ArrayList();
 
     public Playlist(String playlistName) {
         this.playlistName = playlistName;
-        this.playlist = new ArrayList<IComponent>();
     }
 
     public void play() {
